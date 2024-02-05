@@ -4,7 +4,7 @@
 > This component is built for the deprecated Angularjs, the component for Angular can be found [here](https://github.com/Sovendus-GmbH/Sovendus-Voucher-Network-and-Checkout-Benefits-Component-for-Angular)
 
 ## Integrate into your AngularJS app
-1. Download the Sovendus component from [here](https://raw.githubusercontent.com/Sovendus-GmbH/Sovendus-Voucher-Network-and-Checkout-Benefits-Component-for-AngularJS/main/releases/sovendus-banner.component.js) and add it into your AngularJS project / app folder
+1. Download the Sovendus component from [here](https://raw.githubusercontent.com/Sovendus-GmbH/Sovendus-Voucher-Network-and-Checkout-Benefits-Component-for-AngularJS/main/sovendus-banner.component.js) and add it into your AngularJS project / app folder
 2. In the component replace myAppModuleName with your AngularJS app name
 3. Import the component in your AngularJS app:
     ```html
