@@ -22,7 +22,7 @@ angular.module("myAppModuleName").component("sovendusBanner", {
   template: `
     <div id="sovendus-integration-container-{{ $ctrl.sovDivId }}"></div>
   `,
-  controller: function ($scope) {
+  controller: ['$scope', function ($scope) {
     window.sovDivId = 1 + (window.sovDivId || 0);
     this.sovDivId = window.sovDivId;
     this.$onInit = function () {
@@ -59,5 +59,5 @@ angular.module("myAppModuleName").component("sovendusBanner", {
       script.type = "text/javascript";
       body.appendChild(script);
     };
-  },
+  }]
 });
