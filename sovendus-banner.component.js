@@ -27,7 +27,6 @@ angular.module("myAppModuleName").component("sovendusBanner", {
     this.sovDivId = window.sovDivId;
     this.$onInit = function () {
       window.sovIframes = window.sovIframes || [];
-      console.log("testst", $scope);
       window.sovIframes.push({
         trafficSourceNumber: $scope.$ctrl.trafficSourceNumber,
         trafficMediumNumber: $scope.$ctrl.trafficMediumNumber,
