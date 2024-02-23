@@ -37,7 +37,7 @@ angular.module("myAppModuleName").component("sovendusBanner", {
         orderCurrency: $scope.$ctrl.orderCurrency,
         usedCouponCode: $scope.$ctrl.usedCouponCode,
         iframeContainerId: "sovendus-integration-container-" + window.sovDivId,
-        integrationType: "angularjs-1.0.0",
+        integrationType: "angularjs-1.0.1",
       });
       window.sovConsumer = {
         consumerSalutation: $scope.$ctrl.consumerSalutation,
