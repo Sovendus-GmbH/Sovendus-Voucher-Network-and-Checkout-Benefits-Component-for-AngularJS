@@ -22,12 +22,11 @@ angular.module("myAppModuleName").component("sovendusBanner", {
   template: `
     <div id="sovendus-integration-container-{{ $ctrl.sovDivId }}"></div>
   `,
-  controller: function ($scope) {
+  controller: ['$scope', function ($scope) {
     window.sovDivId = 1 + (window.sovDivId || 0);
     this.sovDivId = window.sovDivId;
     this.$onInit = function () {
       window.sovIframes = window.sovIframes || [];
-      console.log("testst", $scope);
       window.sovIframes.push({
         trafficSourceNumber: $scope.$ctrl.trafficSourceNumber,
         trafficMediumNumber: $scope.$ctrl.trafficMediumNumber,
@@ -60,5 +59,5 @@ angular.module("myAppModuleName").component("sovendusBanner", {
       script.type = "text/javascript";
       body.appendChild(script);
     };
-  },
+  }]
 });
