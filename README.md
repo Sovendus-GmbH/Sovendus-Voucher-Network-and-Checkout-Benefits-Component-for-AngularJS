@@ -12,6 +12,7 @@
     ```
 2. You can then use the component like with the following example:
 [Information about the mandatory Parameters / Data](https://developer-hub.sovendus.com/Voucher-Network-Checkout-Benefits/Parameter)
+
     ```html
     <sovendus-banner
         traffic_source_number="YOUR_TRAFFIC_SOURCE_NUMBER"
