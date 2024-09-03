@@ -12,7 +12,7 @@
     ```
 2. You can then use the component like with the following example:
    
-   [Information about the mandatory Parameters / Data](https://developer-hub.sovendus.com/Voucher-Network-Checkout-Benefits/Parameter)
+   [Click here for detailed information on the parameters and which ones are required.](https://developer-hub.sovendus.com/Voucher-Network-Checkout-Benefits/Parameter)
    
     ```html
     <sovendus-banner
