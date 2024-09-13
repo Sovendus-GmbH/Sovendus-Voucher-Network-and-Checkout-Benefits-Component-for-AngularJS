@@ -12,6 +12,7 @@ angular.module("myAppModuleName").component("sovendusBanner", {
     consumerFirstName: "@",
     consumerLastName: "@",
     consumerEmail: "@",
+    consumerPhone: "@",
     consumerStreet: "@",
     consumerStreetNumber: "@",
     consumerCity: "@",
@@ -41,13 +42,14 @@ angular.module("myAppModuleName").component("sovendusBanner", {
           usedCouponCode: $scope.$ctrl.usedCouponCode,
           iframeContainerId:
             "sovendus-integration-container-" + window.sovDivId,
-          integrationType: "angularjs-1.0.2",
+          integrationType: "angularjs-1.0.3",
         });
         window.sovConsumer = {
           consumerSalutation: $scope.$ctrl.consumerSalutation,
           consumerFirstName: $scope.$ctrl.consumerFirstName,
           consumerLastName: $scope.$ctrl.consumerLastName,
           consumerEmail: $scope.$ctrl.consumerEmail,
+          consumerPhone: $scope.$ctrl.consumerPhone,
           consumerStreet: $scope.$ctrl.consumerStreet,
           consumerStreetNumber: $scope.$ctrl.consumerStreetNumber,
           consumerCity: $scope.$ctrl.consumerCity,

@@ -29,6 +29,7 @@
      consumer_first_name="Test"
      consumer_last_name="Tester"
      consumer_email="test@123.de"
+     consumer_phone="+49155123456789"
      consumer_street="Street"
      consumer_street_number="12"
      consumer_city="City"
